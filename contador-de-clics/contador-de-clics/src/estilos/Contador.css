@@ -1,0 +1,13 @@
+/* en el componente Contador tenemos la calse contador para dar estilo al contenedor, que es un div */
+.contador {
+  min-width: 300px;
+  height: 300px;
+  font-size: 160px;
+  padding: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid white;
+  margin-bottom: 15px;
+}
