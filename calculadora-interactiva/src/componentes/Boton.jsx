@@ -1,4 +1,5 @@
 import React from "react";
+import "../estilos/Boton.css";
 
 function Boton(props) {
   const esOperador = (valor) => {
@@ -10,6 +11,7 @@ function Boton(props) {
       className={`boton-contenedor ${
         esOperador(props.children) ? "operador" : ""
       }`.trimEnd()}
+      onClick={() => props.manejarClic(props.children)}
     >
       {props.children}
     </div>
